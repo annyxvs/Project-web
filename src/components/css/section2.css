@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap");
+.section2 {
+  background-color: #213928;
+  margin-top: -2rem;
+  padding: 2rem 3rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  font-family: 'Fredoka', sans-serif;
+}
+
+.section2 .esq {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section2 .esq h1 {
+  color: #e2e2e2;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.section2 .esq p {
+  color: rgba(231, 229, 229, 0.966);
+  font-weight: 800;
+  font-size: 1.3rem;
+  line-height: 1.2rem;
+  opacity: 0.8;
+}
+
+.section2 .dir {
+  padding-left: 7rem;
+}
+
+.bnt-start {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  height: 5rem;
+  width: 10rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  background-color: #a5d3b2;
+  color: rgba(0, 0, 0, 0.746);
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  cursor: pointer;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.bnt-start:hover {
+  background-color: #000000;
+  color: #e9e9e9;
+}
+/*# sourceMappingURL=section2.css.map */

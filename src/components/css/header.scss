@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+header{
+  background-color: transparent;
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  justify-content:space-around;
+  .logo{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-family: 'Fredoka', sans-serif;
+    padding: 0.2rem;
+    color: #ffffff;
+    span{
+      margin-right: 00.2rem;
+      background-color: #9cbea7;
+      border-radius: 0.3rem;
+      padding: 00.3rem;
+      color: #2e2e2e;
+    }
+  }
+  .navigation{
+    display: flex;
+    ul{
+      li{
+        list-style: none;
+        display: inline-block;
+        margin: 0.2rem;
+        
+
+        :hover{
+          background-color: #9996963b;
+          border-radius: 0.2rem;
+          transition: 0.5s;
+        }
+        
+        a{
+          font-family: 'Fredoka', sans-serif;
+          text-decoration: none;
+          color: #90d1a5;
+          text-transform: uppercase;
+          font-weight: 700;
+          padding: 0.3rem;
+          margin: 00.2rem;
+
+
+        }
+      }
+    }
+  }
+  .bnt-log{
+    display: flex;
+    margin-right: 2rem;
+    border: none;
+    align-items: center;
+    color: #ffffff;
+
+    .bnt-login{
+      border: none;
+      background-color: #b2d4bd;
+      border-radius: 0.5rem;
+      margin: 0.2rem;
+      padding: 0.5rem;
+      
+
+
+      a{
+        font-family: 'Fredoka', sans-serif;
+          text-decoration: none;
+          color: #000000;
+          font-weight: 700;
+        
+          :hover{
+            cursor: pointer;
+          }
+
+      }
+    }
+  }
+}

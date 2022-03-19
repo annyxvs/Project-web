@@ -1,0 +1,50 @@
+html{
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&display=swap');
+
+.desativado{
+  opacity: 0;
+  width: 100vh;
+}
+
+.ativado{
+  width: auto;
+  position: fixed;
+  padding: 0.4rem;
+  bottom: 2rem;
+  right: 2rem;
+  border-radius: 2rem;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.ativado:hover{
+    background-color: #8fb39ade;
+    transition: 0.5s;
+}
+
+.app{
+  height: 2222px;
+  background-color: rgba(214,214,214,1);
+}
+
+::-webkit-scrollbar{
+  background-color: #3a5743c5;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ffffff;
+  width: 2px;
+}
+
+footer{
+  padding: 0.2rem;
+  text-align: center;
+  background-color: #213928;
+  font-family: 'Fredoka', sans-serif;
+  color: #ffffff;
+}
